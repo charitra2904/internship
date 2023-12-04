@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Language Learning Quiz</title>
+  <style>
+    /* CSS styles for the quiz sheet */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .quiz-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+    .question {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .options {
+      margin-bottom: 20px;
+    }
+    
+    .option {
+      margin-bottom: 10px;
+    }
+    
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Language Learning Quiz</h1>
+    
+    <div class="question">
+        <h6>Fill in the blank with correct <article></article></h6>
+      <p>Stay here ______ little longer.</p>
+    </div>
+    
+    <div class="options">
+      <div class="option">
+        <input type="checkbox" name="q1" value="a">
+        <label for="q1">a) an </label>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="q1" value="b">
+        <label for="q1">b) a </label>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="q1" value="c">
+        <label for="q1">c) the </label>
+      </div>
+      <div class="option">
+        <input type="checkbox" name="q1" value="d">
+        <label for="q1">d) None of the above</label>
+      </div>
+    </div>
+    
+    <button class="submit-btn">Submit</button>
+  </div>
+</body>
+</html>
